@@ -21,6 +21,7 @@ class AccountViewController: UIViewController, UITableViewDelegate, UITableViewD
     
     // MARK: Outlets
     @IBOutlet weak var tableviewAccounts: UITableView!
+    @IBOutlet weak var actSpinner: UIActivityIndicatorView!
     
     // MARK: Buttons
     @IBAction func btnSignOut_Touch(_ sender: UIBarButtonItem) {
