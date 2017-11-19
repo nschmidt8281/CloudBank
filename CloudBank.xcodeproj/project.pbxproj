@@ -7,15 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA9294C81FBB615C0020BAD9 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9294C71FBB615C0020BAD9 /* Account.swift */; };
+		CA9294CA1FBB61670020BAD9 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9294C91FBB61670020BAD9 /* Transaction.swift */; };
+		CA9294CE1FBB61830020BAD9 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9294CD1FBB61830020BAD9 /* AccountViewController.swift */; };
+		CA9294DC1FBB6D6E0020BAD9 /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9294DB1FBB6D6E0020BAD9 /* AuthorizationViewController.swift */; };
+		CA9294DE1FBB76F20020BAD9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9294DD1FBB76F20020BAD9 /* User.swift */; };
+		CA9294E21FBBD2180020BAD9 /* AccountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9294E11FBBD2180020BAD9 /* AccountCell.swift */; };
+		CA9294E41FBBED5F0020BAD9 /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9294E31FBBED5F0020BAD9 /* TransactionViewController.swift */; };
+		CA9294E61FBBEF790020BAD9 /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9294E51FBBEF790020BAD9 /* TransactionCell.swift */; };
 		CA9A8D521FBB5DF500DE4807 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9A8D511FBB5DF500DE4807 /* AppDelegate.swift */; };
 		CA9A8D541FBB5DF500DE4807 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9A8D531FBB5DF500DE4807 /* ViewController.swift */; };
 		CA9A8D571FBB5DF500DE4807 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA9A8D551FBB5DF500DE4807 /* Main.storyboard */; };
 		CA9A8D5A1FBB5DF500DE4807 /* CloudBank.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA9A8D581FBB5DF500DE4807 /* CloudBank.xcdatamodeld */; };
 		CA9A8D5C1FBB5DF500DE4807 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA9A8D5B1FBB5DF500DE4807 /* Assets.xcassets */; };
 		CA9A8D5F1FBB5DF500DE4807 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA9A8D5D1FBB5DF500DE4807 /* LaunchScreen.storyboard */; };
+		CA9A8D671FBB5FC400DE4807 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA9A8D661FBB5FC400DE4807 /* GoogleService-Info.plist */; };
+		EF5B8F6B8351A4C1C7A1CCDF /* libPods-CloudBank.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B8DDDE7554A9319FA60CE9 /* libPods-CloudBank.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63282438B282FCDA282A8077 /* Pods-CloudBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudBank.release.xcconfig"; path = "Pods/Target Support Files/Pods-CloudBank/Pods-CloudBank.release.xcconfig"; sourceTree = "<group>"; };
+		B3B8DDDE7554A9319FA60CE9 /* libPods-CloudBank.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CloudBank.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA9294C71FBB615C0020BAD9 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		CA9294C91FBB61670020BAD9 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		CA9294CD1FBB61830020BAD9 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		CA9294DB1FBB6D6E0020BAD9 /* AuthorizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
+		CA9294DD1FBB76F20020BAD9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CA9294E11FBBD2180020BAD9 /* AccountCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCell.swift; sourceTree = "<group>"; };
+		CA9294E31FBBED5F0020BAD9 /* TransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
+		CA9294E51FBBEF790020BAD9 /* TransactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
 		CA9A8D4E1FBB5DF500DE4807 /* CloudBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA9A8D511FBB5DF500DE4807 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA9A8D531FBB5DF500DE4807 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +44,8 @@
 		CA9A8D5B1FBB5DF500DE4807 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA9A8D5E1FBB5DF500DE4807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA9A8D601FBB5DF500DE4807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA9A8D661FBB5FC400DE4807 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F6456D511CC8A1439014DF00 /* Pods-CloudBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudBank.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CloudBank/Pods-CloudBank.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF5B8F6B8351A4C1C7A1CCDF /* libPods-CloudBank.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20D8A250F80AAF4BC79583F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3B8DDDE7554A9319FA60CE9 /* libPods-CloudBank.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA9294D31FBB61A50020BAD9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CA9A8D531FBB5DF500DE4807 /* ViewController.swift */,
+				CA9294DB1FBB6D6E0020BAD9 /* AuthorizationViewController.swift */,
+				CA9294CD1FBB61830020BAD9 /* AccountViewController.swift */,
+				CA9294E31FBBED5F0020BAD9 /* TransactionViewController.swift */,
+				CA9294E11FBBD2180020BAD9 /* AccountCell.swift */,
+				CA9294E51FBBEF790020BAD9 /* TransactionCell.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CA9294D41FBB61AD0020BAD9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CA9294C71FBB615C0020BAD9 /* Account.swift */,
+				CA9294C91FBB61670020BAD9 /* Transaction.swift */,
+				CA9294DD1FBB76F20020BAD9 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		CA9A8D451FBB5DF400DE4807 = {
 			isa = PBXGroup;
 			children = (
 				CA9A8D501FBB5DF500DE4807 /* CloudBank */,
 				CA9A8D4F1FBB5DF500DE4807 /* Products */,
+				DF4261926F6C1CA7D2863220 /* Pods */,
+				20D8A250F80AAF4BC79583F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +112,26 @@
 		CA9A8D501FBB5DF500DE4807 /* CloudBank */ = {
 			isa = PBXGroup;
 			children = (
-				CA9A8D511FBB5DF500DE4807 /* AppDelegate.swift */,
-				CA9A8D531FBB5DF500DE4807 /* ViewController.swift */,
+				CA9294D31FBB61A50020BAD9 /* Controllers */,
+				CA9294D41FBB61AD0020BAD9 /* Models */,
 				CA9A8D551FBB5DF500DE4807 /* Main.storyboard */,
 				CA9A8D5B1FBB5DF500DE4807 /* Assets.xcassets */,
 				CA9A8D5D1FBB5DF500DE4807 /* LaunchScreen.storyboard */,
 				CA9A8D601FBB5DF500DE4807 /* Info.plist */,
+				CA9A8D661FBB5FC400DE4807 /* GoogleService-Info.plist */,
+				CA9A8D511FBB5DF500DE4807 /* AppDelegate.swift */,
 				CA9A8D581FBB5DF500DE4807 /* CloudBank.xcdatamodeld */,
 			);
 			path = CloudBank;
+			sourceTree = "<group>";
+		};
+		DF4261926F6C1CA7D2863220 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6456D511CC8A1439014DF00 /* Pods-CloudBank.debug.xcconfig */,
+				63282438B282FCDA282A8077 /* Pods-CloudBank.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +141,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA9A8D631FBB5DF500DE4807 /* Build configuration list for PBXNativeTarget "CloudBank" */;
 			buildPhases = (
+				136BCA5FF1D5B44820943FAE /* [CP] Check Pods Manifest.lock */,
 				CA9A8D4A1FBB5DF400DE4807 /* Sources */,
 				CA9A8D4B1FBB5DF400DE4807 /* Frameworks */,
 				CA9A8D4C1FBB5DF400DE4807 /* Resources */,
+				1D81B5D302563EA3FB7B69FE /* [CP] Embed Pods Frameworks */,
+				6B2566EBF12AFF420D3257F4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA9A8D5F1FBB5DF500DE4807 /* LaunchScreen.storyboard in Resources */,
+				CA9A8D671FBB5FC400DE4807 /* GoogleService-Info.plist in Resources */,
 				CA9A8D5C1FBB5DF500DE4807 /* Assets.xcassets in Resources */,
 				CA9A8D571FBB5DF500DE4807 /* Main.storyboard in Resources */,
 			);
@@ -134,14 +205,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		136BCA5FF1D5B44820943FAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CloudBank-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D81B5D302563EA3FB7B69FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudBank/Pods-CloudBank-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B2566EBF12AFF420D3257F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudBank/Pods-CloudBank-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CA9A8D4A1FBB5DF400DE4807 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA9294DC1FBB6D6E0020BAD9 /* AuthorizationViewController.swift in Sources */,
 				CA9A8D541FBB5DF500DE4807 /* ViewController.swift in Sources */,
+				CA9294E61FBBEF790020BAD9 /* TransactionCell.swift in Sources */,
+				CA9294CE1FBB61830020BAD9 /* AccountViewController.swift in Sources */,
+				CA9294C81FBB615C0020BAD9 /* Account.swift in Sources */,
 				CA9A8D5A1FBB5DF500DE4807 /* CloudBank.xcdatamodeld in Sources */,
 				CA9A8D521FBB5DF500DE4807 /* AppDelegate.swift in Sources */,
+				CA9294CA1FBB61670020BAD9 /* Transaction.swift in Sources */,
+				CA9294DE1FBB76F20020BAD9 /* User.swift in Sources */,
+				CA9294E41FBBED5F0020BAD9 /* TransactionViewController.swift in Sources */,
+				CA9294E21FBBD2180020BAD9 /* AccountCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,13 +406,14 @@
 		};
 		CA9A8D641FBB5DF500DE4807 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6456D511CC8A1439014DF00 /* Pods-CloudBank.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LD3R48EZL8;
 				INFOPLIST_FILE = CloudBank/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.408industries.CloudBank;
+				PRODUCT_BUNDLE_IDENTIFIER = com.408industries.CloudBnk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -291,13 +422,14 @@
 		};
 		CA9A8D651FBB5DF500DE4807 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63282438B282FCDA282A8077 /* Pods-CloudBank.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LD3R48EZL8;
 				INFOPLIST_FILE = CloudBank/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.408industries.CloudBank;
+				PRODUCT_BUNDLE_IDENTIFIER = com.408industries.CloudBnk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
